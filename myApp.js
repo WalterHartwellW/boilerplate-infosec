@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 
 
+app.use(helmet.hidePoweredby({ setTo: '4.2.0'})) 
 
 
 
